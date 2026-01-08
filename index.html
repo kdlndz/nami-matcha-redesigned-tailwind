@@ -45,7 +45,7 @@
     <div class="grid auto-cols-max grid-flow-dense auto-rows-[minmax(100px, auto)] gap-6.25 grid-cols-[repeat(auto-fit, minmax(300px, 1fr))] m-8">
       <div class="relative overflow-hidden">
         <img class="block object-cover w-full h-112.5 rounded-[10px] bg-[#f1ebd9] " id="og-matcha" src="https://namimatcha.com/cdn/shop/files/1_4.png?v=1744068614&width=2000" alt="og">
-      <button class="absolute p-[10px 20px] rounded-lg border-none cursor-pointer -translate-x-6/12 duration-300 mb-12 ml-[50%] bg-[#44624a] hover:bg-[#6a7a5a] text-[#f5f1ec] text-xs">Shop Matcha</button></div>
+      <button class="absolute px-2.5 py-5 rounded-lg border-none cursor-pointer -translate-x-6/12 duration-300 mb-12 ml-[50%] bg-[#44624a] hover:bg-[#6a7a5a] text-[#f5f1ec] text-xs">Shop Matcha</button></div>
     
     <div class="relative overflow-hidden">
     <!--div class="products"-->
@@ -60,14 +60,14 @@
 </section>
 
 <!-- email newsletter section -->
-<section class="newsletter-section">
+<section class="flex flex-wrap justify-between items-center bg-[#fffdfc] px-8 py-16 gap-4 border-t-[#333333]">
   <div class="newsletter-text">
-  <h2> Join the Matcha Mob!</h2>
-  <p>get early access + behind the scenes content of my matcha journey!</p>
+  <h2 class="text-2xl m-0"> Join the Matcha Mob!</h2>
+  <p class="text-medium m-[0.5 0 0]">get early access + behind the scenes content of my matcha journey!</p>
   </div>
     
-    <form class="newsletter-form">
-      <input type="email" placeholder="email@example.com" required></input>
+    <form class="flex items-center gap-2">
+      <input class="px-4 py-3 border-[#555050] rounded-md text-[1rem] outline-1 w-62.5" type="email" placeholder="email@example.com" required></input>
     <button type="submit">Subscribe</button>
   </form>
 </section>
